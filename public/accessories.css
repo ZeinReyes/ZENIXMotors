@@ -1,0 +1,51 @@
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 3px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #c0bcbc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2c2c2c; 
+}
+
+.search-bar {
+    width: 85%;
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.scrollable-container {
+    height: 95%;
+    width: 97%;
+    margin: auto;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-container .card {
+    height: 450px;
+}
+
+.card img {
+    height: 60%;
+}
